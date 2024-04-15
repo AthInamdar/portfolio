@@ -547,7 +547,7 @@ form textarea:hover {
         align-items: center;
     }
     .project {
-        margin: 0;
+        margin: 10px 0px;
         padding: auto;
         width: 95%;
     }

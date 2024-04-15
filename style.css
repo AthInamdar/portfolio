@@ -483,6 +483,7 @@ form textarea:hover {
         align-items: center;
     }
     .project {
+        margin: 10px 0px;
         margin: 0;
         padding: auto;
     }

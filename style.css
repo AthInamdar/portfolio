@@ -22,7 +22,7 @@ section {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: transparent;
+    background-color: rgba(17, 17, 17, 0.2);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,6 +65,8 @@ section {
     align-items: center;
     padding: 70px 10% 0;
 }
+
+
 
 .home_content {
     max-width: 600px;
@@ -450,3 +452,130 @@ form textarea:hover {
         opacity: 1;
     }
 }
+
+
+
+
+
+
+
+
+/* For screens smaller than 768px (tablets and smaller devices) */
+@media (max-width: 768px) {
+    .home {
+        background-image: url(background.png);
+    }
+    .home_content {
+        max-width: 90%;
+        text-align: center;
+    }
+    .home_content h1 {
+        font-size: 40px;
+    }
+    .about{
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .projects-contain {
+        right: 5px;
+        display: inline;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project {
+        margin: 0;
+        padding: auto;
+    }
+    .contact {
+        height: auto;
+    }
+    .contact-box1 {
+        padding-left: 0;
+    }
+    .flex {
+        padding-left: 0;
+    }
+}
+
+/* For screens smaller than 576px (phones and smaller devices) */
+@media (max-width: 576px) {
+    .home {
+        background-image: url(background.png);
+    }
+    .header {
+        padding: 15px 5%;
+    }
+    .navbar {
+        display: none; /* Hide the navbar on smaller screens */
+    }
+    .logo {
+        font-size: 20px;
+    }
+    .home_content h3 {
+        font-size: 24px;
+    }
+    .home_content h1 {
+        font-size: 32px;
+    }
+    .home_sci a {
+        margin-right: 10px;
+    }
+    .more-btn button {
+        width: 120px;
+        font-size: 1rem;
+    }
+    .about{
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .about-contain {
+        display: inline;
+        flex-direction: column;
+        align-items: center;
+    }
+    .photo img {
+        height: 30vh;
+    }
+    .para {
+        width: 90%;
+    }
+    .projects-contain {
+        width: 100%;
+        right: 5px;
+        display: inline;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project {
+        margin: 0;
+        padding: auto;
+        width: 95%;
+    }
+    .contact {
+        height: auto;
+        width: 100%;
+    }
+    .contact-contain {
+        width: 90%;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .contact-box1 {
+        width: 100%;
+        padding-left: 0;
+    }
+    .contact-box2 {
+        width: 100%;
+    }
+    .flex {
+        padding-left: 0;
+    }
+    form input,
+    form textarea {
+        width: 90%;
+    }
+    .send {
+        width: 60%;
+    }
+} 
+
